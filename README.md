@@ -193,7 +193,7 @@ The precise HTTP methods, request bodies, authentication requirements, and respo
 
 ## 🚀 Deployment
 
-Wisper can be deployed on a Next.js-compatible hosting platform, such as [Vercel](https://vercel.com/).
+Wisper can be deployed on a Next.js-compatible hosting platform, such as mine - https://wisper-kappa.vercel.app/
 
 A typical deployment workflow:
 
