@@ -90,7 +90,7 @@ export default function SendMessagePage() {
                 const response = await fetch(
                     `/api/feedback-prompts?username=${encodeURIComponent(
                         String(username)
-                    )}&promptId=${encodeURIComponent(id)}`,
+                    )}&promptId=${encodeURIComponent(String(id))}`,
                     {
                         method: "GET",
                         cache: "no-store",
